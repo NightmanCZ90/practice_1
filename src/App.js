@@ -61,7 +61,7 @@ class App extends React.Component {
   }
 
   renderSentence = ({ who, what, when, where }) => {
-    const text = `${who} ${what} ${when} ${where}`;
+    const text = `${who} ${what} ${where} ${when}`;
     return (
       <Sentence text={text}/>
     )
