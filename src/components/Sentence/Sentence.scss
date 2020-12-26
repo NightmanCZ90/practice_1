@@ -6,10 +6,35 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
-  & .question-text {
+  &-text {
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 80px;
     color: white;
+    font-size: 30px;
+  }
+
+  &-form {
+    height: 100px;
+  }
+
+  &-button {
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    color: #f6e5fd;
+    background: #a881ba;
+    transition: all 100ms ease-out;
+
+    &:hover {
+      color: #fbf0ff;
+      background: #c094d4;
+    }
   }
 }

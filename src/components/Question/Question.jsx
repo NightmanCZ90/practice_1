@@ -15,6 +15,7 @@ const Question = (props) => {
         />
         <input 
           type='submit'  
+          value='submit'
           className='question-button'
         />
       </form>

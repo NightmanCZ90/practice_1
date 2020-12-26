@@ -1,9 +1,10 @@
 * {
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-  box-sizing: border-box;
   height: 100vh;
   background: linear-gradient(90deg, rgba(102,54,124,1) 0%, rgba(55,54,119,1) 100%);
   display: flex;

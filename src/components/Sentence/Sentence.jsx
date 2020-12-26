@@ -8,6 +8,7 @@ const Sentence = (props) => {
       <form className='sentence-form' onSubmit={props.handleSubmit}>
         <input 
           type='submit'  
+          value='start over'
           className='sentence-button'
         />
       </form>
